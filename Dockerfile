@@ -13,8 +13,6 @@
 #EXPOSE 8080
 #ENTRYPOINT exec java -jar $APP_HOME/build/libs/$JAR_NAME
 
-
-
 FROM openjdk:21-jdk-slim
 
 VOLUME /tmp
